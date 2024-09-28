@@ -1,0 +1,14 @@
+name: VillagerMarketRestore
+version: 1.0
+main: org.cptcummiball.villagermarketrestore.Main
+author: cptcummiball
+api-version: 1.20
+commands:
+  villagerrestore:
+    description: "Restores missing VillagerMarket villagers."
+    usage: "/villagerrestore"
+    permission: villagerrestore.use
+permissions:
+  villagerrestore.use:
+    description: "Allows the player to restore VillagerMarket shops."
+    default: op
